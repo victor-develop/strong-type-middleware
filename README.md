@@ -1,6 +1,8 @@
-# Example TypeScript Package ready to be published on npm for 2022
+# strong-type-middleware
 
-This is an example TypeScript Package ready to be published on npm. It has been set up with automated tests and package publishing workflow using GitHub Actions CI/CD. It is made primarily for GitHub + VS Code (Windows / Mac / Linux) users who are about to write and publish their first TypeScript npm package. This package could serve as a starter / boilerplate / demo for them.
+WARN: the package is not ready, do not use
+
+Write your node.js middleware as pure functions with explictly typed input Ctx and out Ctx, and this package will cast your function into a koa/express middlware. This only supports execution BEFORE `next` function as it encourage pipelines instead of onions pattern.
 
 It uses npm, TypeScript compiler, Jest, webpack, ESLint, Prettier, husky, pinst, commitlint. The production files include CommonJS, ES Modules, UMD version and TypeScript declaration files.
 
