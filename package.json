@@ -1,6 +1,6 @@
 {
   "name": "strong-type-middleware",
-  "version": "0.2.3",
+  "version": "0.2.4",
   "description": "",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
@@ -44,7 +44,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git@github.com:victor-develop/tomchen-example-typescript-package.git"
+    "url": "git@github.com:victor-develop/strong-type-middleware.git"
   },
   "dependencies": {},
   "devDependencies": {
